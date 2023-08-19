@@ -47,7 +47,7 @@ var createCounter = function(n) {
     }
 }
 
-const counter =  Counter(10)
+const counter = new Counter(10)
 counter.incrment() //11
 
 /** 
